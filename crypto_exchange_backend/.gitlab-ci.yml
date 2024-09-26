@@ -1,0 +1,63 @@
+# Official framework image. Look for the different tagged releases at:
+# https://hub.docker.com/r/library/php
+image: phpdockerio/php80-fpm
+
+
+# This folder is cached between builds
+# http://docs.gitlab.com/ee/ci/yaml/README.html#cache
+cache:
+  paths:
+    - vendor/
+
+services:
+  - redis:latest
+
+
+before_script:
+  # Update packages
+  - apt-get update -yqq
+
+  # Install php extensions
+  - apt-get -y install php8.0-pgsql php8.0-mysql php8.0-sqlite php8.0-redis php8.0-bcmath php8.0-gd php8.0-imagick php8.0-dev
+
+  - apt-get -y install redis-server
+  # Install Composer and project dependencies.
+  - curl -sS https://getcomposer.org/installer | php
+  - composer install --ignore-platform-reqs
+  - composer dump-autoload
+
+  # Copy over testing configuration.
+  # Don't forget to set the database config in .env.testing correctly
+  # DB_HOST=mysql
+  # DB_DATABASE=project_name
+  # DB_USERNAME=root
+  # DB_PASSWORD=secret
+  - cp .env.testing .env
+
+  # Change rules
+  - chmod -R 777 storage/
+  - chmod -R 777 bootstrap/
+
+  # Generate an application key. Re-cache.
+  - php artisan key:generate
+  - php artisan config:cache
+  # Run database migrations.
+  # - php artisan migrate
+  # Run database seed
+  # - php artisan db:seed
+  # - php artisan passport:keys
+
+  # Clear config cache:
+  - php artisan config:clear
+  - php artisan optimize
+
+unit_tests:
+  script:
+    - php artisan test --parallel --testsuite=Unit
+
+feature_tests:
+  script:
+    - php artisan test --parallel --testsuite=Feature
+
+variables:
+  REDIS_PORT: 6379

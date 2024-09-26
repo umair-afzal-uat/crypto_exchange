@@ -1,0 +1,34 @@
+version: "3.7"
+
+services:
+
+  #front:
+   # image: merehead/bloodbin:web_app_develop
+
+  redis-commander:
+    container_name: ${COMPOSE_PROJECT_NAME:-project}_redis_commander
+    hostname: redis-commander
+    image: rediscommander/redis-commander:latest
+    restart: unless-stopped
+    environment:
+      - REDIS_HOSTS=local:redis:6379
+    ports:
+      - ${REDIS_COMMANDER_PORT:-8086}:8081
+    networks:
+      - backend
+
+  phpmyadmin:
+    container_name: ${COMPOSE_PROJECT_NAME:-project}_phpmyadmin
+    image: phpmyadmin/phpmyadmin
+    restart: unless-stopped
+    links:
+      - mysql:database
+    environment:
+      - PMA_ARBITRARY=1
+      - PMA_HOST=database
+      - PMA_POST=3306
+      - UPLOAD_LIMIT=300M
+    ports:
+      - ${PHPMYADMIN_PORT:-8890}:80
+    networks:
+      - backend

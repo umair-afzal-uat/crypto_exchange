@@ -1,0 +1,49 @@
+import keyMirror from 'key-mirror';
+
+export default keyMirror({
+  GET_USER_TRIGGER: null,
+  SET_ADMIN_ERROR: null,
+  SET_ADMIN_LOAD: null,
+  SET_NEW_DEVICE: null,
+  SET_TWO_FACTOR_AUTH: null,
+  SET_INITIAL_ADMIN_STATE: null,
+  SET_TIME_SETTINGS_DATA: null,
+  OPEN_CHAT_SAGA: null,
+  CLOSE_CHAT_SAGA: null,
+  HANDLE_MODAL: null,
+  // AUTH
+  SET_AUTH_DATA: null,
+  USER_LOG_OUT: null,
+  LOAD_START: null,
+  LOAD_FINISH: null,
+  //USERS
+  SET_USERS_DATA: null,
+  SET_USER_DATA: null,
+  SET_WAITLIST_DATA: null,
+  IS_QUES: null,
+
+  //SETTINGS
+  SET_QR_DATA: null,
+  //LOANS
+  SET_LOANS_DATA: null,
+  SET_USER_LOAN_DATA: null,
+  //FEE
+  SET_FEE_DATA: null,
+  //TRANSACTIONS
+  SET_TRANSACTIONS_DATA: null,
+  SET_PAYMENT_DATA: null,
+  CHANGE_TRANSACTIONS_DATA: null,
+  GET_MISSED_PAYMENT_DATA: null,
+  GET_LOAN_DATA: null,
+  // WITHDRAWALS Withdrawals
+  SET_WITHDRAWALS_DATA: null,
+  CHANGE_WITHDRAWALS_DATA: null,
+  //REFERRALS
+  SET_REFERRALS_DATA: null,
+  //HOT WALLET
+  SET_HOT_WALLET_DATA: null,
+  SET_HISTORY_TRANSACTIONS_DATA: null,
+
+  // //FAQS
+  // SET_FAQS_DATA: null,
+});

@@ -1,0 +1,7 @@
+/.idea/
+/public/storage
+/storage/*.key
+/vendor
+.env
+/app/Console/Commands/TestCommand.php
+.phpunit.result.cache

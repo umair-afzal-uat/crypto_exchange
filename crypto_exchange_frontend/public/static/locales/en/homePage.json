@@ -1,0 +1,80 @@
+{
+  "getStarted": "Get Started",
+  "hero": {
+    "title": "Never miss out on explosive",
+    "title2": "Bitcoin price action again.",
+    "text": "Take advantage of the current Bitcoin price today and split the cost over weekly payments.  First payment due today and next payment due in 30 days.",
+    "advantages-block": {
+      "title1": "No credit check required.",
+      "title2": "Guaranteed Approval.",
+      "title3": "Make weekly payments with payoff schedules ranging from 5-16 weeks."
+    }
+  },
+  "homeSection1": {
+    "title1": "What is",
+    "title2": "Crypto.Exchange",
+    "text": "is a cryptocurrency credit service that provides Bitcoin advances to users who want to acquire Bitcoin at today’s price but cannot or do not want to pay the full amount for the Bitcoin upfront.",
+    "desc": "There is no income requirements or credit check, simply pay your first payment and receive the full amount in your BTC Advance crypto wallet. Your next weekly payment is due in 30 days, and you can take up to 16 weeks to pay off the balance."
+  },
+  "homeSection2": {
+    "title1": "Why",
+    "title2": "BTC Advance",
+    "text1": "Bitcoin moves fast. Throughout its history it has often doubled or tripled or more in just a few months. It is the best performing asset of the past decade with an annualized return of 230%, beating out stocks and gold by 15x. If you bought $1000 of Bitcoin in July 2016 as of late summer 2021 that investment would be worth $67,867, representing growth of 10,245%.",
+    "text2": "A $1,000 investment in the S&P 500, by comparison, would only be up 123,78% since 2016 for a total value of $2,237. As Bitcoin grows as the chosen store of value worldwide it creates a positive feedback loop with its network effect that will likely lead to exponential growth in the near future. Many analysts and experts expect to see a $100,000-$300,000 Bitcoin price by the end of year 2021. ",
+    "text3": "allows you to take advantage of the Bitcoin price today, but only pay 1/5 the cost upfront."
+  },
+  "homeSection3": {
+    "title": "Bitcoin Set",
+    "subtitle": "to Explode",
+    "title1": "Big Wall Street firms like Goldman Sachs, Citigroup and BlackRock are now entering Bitcoin. With the recent influx of corporate interest in bitcoin, the cryptocurrency is poised to accelerate into the mainstream.",
+
+    "text1": "«I have no doubt whatsoever that bitcoin S2FX is correct, and bitcoin will tap $100K — $288K before Dec 2021. In fact, I have new data that confirms the supply shortage is real. IMO, 2021 will be spectacular.»",
+    "text1des": "Plan B",
+    "text1about1": "Institutional investor",
+    "text1about2": "Creator of Stock-to-Flow Model",
+
+    "text2": "«Bitcoin’s market cycles are becoming larger and the current bull trend could take it to $318,000 by December 2021.»",
+    "text2des": "Thomas Fitzpatrick",
+    "text2about": "Managing Director at Citibank",
+
+    "text3": "«If bitcoin follows the same trajectory as the last epoch, I predict that it may very well reach a high of over $400,000 (Second Half of 2024)»",
+    "text3des": "Dion Guillaume",
+    "text3about": "Cryptocurrency Analyst",
+
+    "text4": "«I think Bitcoin by this time [2031] will have reached about 20 percent of the global purchasing power. So this would imply, Bitcoin’s market cap in 2031 would be about $250 trillion… It will be north of 12 and a half million dollars per Bitcoin.»",
+    "text4des": "Robert Breedlove",
+    "text4about": "CEO of Parallax Digital"
+  },
+  "homeSection4": {
+    "title": "A crypto credit service created especially for you.",
+    "subTitle": "Get an advance now because we believe in Bitcoin and You",
+    "item1": "• Real Bitcoin Credit",
+    "item2": "No Prepayment fees",
+    "item3": "Multi-signature and cold storage security",
+    "item4": "No hidden fees",
+    "item5": "• $5000 Guaranteed Approval",
+    "item6": "Take Multiple Loans",
+    "item7": "Transparent",
+    "item8": "• No withdraw fee",
+    "item9": "• Terms from 5-16 weeks",
+    "item10": "24/7 Live Customer Service",
+    "item11": "Simple Registration",
+    "item12": "• More Cryptos coming soon"
+  },
+  "homeSection5": {
+    "title": "A payment method",
+    "subTitle": "for everyone."
+  },
+  "homeSection6": {
+    "title": "1,000+ users like"
+  },
+  "Calculator": {
+    "loanAmount": "Loan Amount",
+    "collateralAmount": "Collateral Amount",
+    "loanPeriod": "Loan Period",
+    "weeks": "weeks",
+    "interestRate": "Interest Rate",
+    "originationFee": "Origination Fee",
+    "totalLoanCost": "Total Loan Cost"
+  }
+}

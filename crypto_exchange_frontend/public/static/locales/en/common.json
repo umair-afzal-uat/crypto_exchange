@@ -1,0 +1,34 @@
+{
+  "logo": {
+    "name": "ВТC",
+    "title": "advance.",
+    "text": "credit"
+  },
+  "layout": {
+    "policy": "Privacy Policy",
+    "copy": "© 2021 Crypto.Exchange. All rights reserved.",
+    "copyPart1": "© 2021 Crypto.Exchange.",
+    "copyPart2": "All rights reserved.",
+    "logIn": "Log In",
+    "singUp": "Sign Up",
+    "getBa": "Get a Bitcoin Advance",
+    "howItWorks": "How it Works",
+    "aboutUs": "About Us",
+    "faq": "FAQ",
+    "contactUs":"Contact Us",
+    "subscribe": "Subscribe for Updates",
+    "subscribePlaceholder": "Your email address",
+    "follow": "Follow Us",
+    "myAccount": "My Account",
+    "accountSettings": "Account Settings",
+    "logOut": "Log out",
+    "bitcoinAdvance": "Bitcoin Advance",
+    "myBitcoinAdvances": "My Bitcoin Advances",
+    "myWallet": "My Wallet",
+    "myLoans": "My Loans",
+    "transactionHistory": "Withdrawal History",
+    "affiliateProgram": "Affiliate Program",
+    "termsConditions": "Terms and Conditions"
+  }
+
+}

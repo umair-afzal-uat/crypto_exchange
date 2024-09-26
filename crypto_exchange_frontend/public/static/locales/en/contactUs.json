@@ -1,0 +1,16 @@
+{
+  "title": "Contact Us",
+  "desc": "",
+  "info": "Need help?",
+  "form": {
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "Enter your name",
+    "email": "Email Address",
+    "emailPlaceholder": "Enter your email address",
+    "phone": "Phone Number",
+    "phonePlaceholder": "Phone Number",
+    "message": "Message",
+    "messagePlaceholder": "Enter your message",
+    "submit": "Submit"
+  }
+}
