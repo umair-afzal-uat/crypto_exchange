@@ -46,7 +46,7 @@ Make sure you have the following installed on your machine:
 
 - PHP >= 8.0
 - Composer
-- Node.js >= 14.x
+- Node.js >= 17.x
 - npm or yarn
 - Docker and Docker Compose (for containerization)
 
